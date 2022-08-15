@@ -15,6 +15,10 @@ public String s="";
 		System.out.println("aaaa");
 		return "sonar-qube";
 	}
+	
+	public void getSalut() {
+		System.out.println("hello");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootSonarQubeApplication.class, args);
 	}
